@@ -6,8 +6,8 @@ favicon: "/assets/images/ico.png"
 g_analytics: UA-12345678-1
 
 # bio
-header: ÄGGIE
-desc:
+header:
+desc: ÄGGIE
 
 # posts
 date_format: "%Y"
