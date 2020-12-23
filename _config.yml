@@ -1,0 +1,24 @@
+# site
+title: itchyeggie
+baseurl: ""
+url: ""
+favicon: "/assets/images/ico.png"
+g_analytics: UA-12345678-1
+
+# bio
+header: 
+desc: >
+  ÄGGIE
+
+# posts
+date_format: "%Y"
+post_title: Story
+post_date: Year
+post_cat: Genre
+
+# build settings
+markdown: kramdown
+# theme: louie
+exclude:
+  - Gemfile
+  - Gemfile.lock

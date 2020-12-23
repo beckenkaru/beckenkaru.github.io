@@ -1,0 +1,57 @@
+.post__meta {
+  margin: -190px 150px 20px;
+  overflow: hidden;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.post__paginate {
+  overflow: hidden;
+}
+
+$paginate-padding: 13px;
+.post__paginate-left,
+.post__paginate-right {
+  position: relative;
+  display: block;
+  width: 50%;
+}
+
+.post__title {
+  @extend .row__title;
+}
+
+.post__date {
+  @extend .row__date;
+}
+
+.post__cat {
+  @extend .row__cat;
+}
+
+.post__body {
+  padding-left: 150px;
+  padding-bottom: 20px;
+
+  pre {
+    background: $color__gray;
+    padding: 10px 20px;
+  }
+
+  code {
+    background: $color__gray;
+    font-size: 12px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+// media queries
+@include media-query($on-laptop) {
+  .post {
+    min-width: 650px;
+    width: 50%;
+  }
+}
