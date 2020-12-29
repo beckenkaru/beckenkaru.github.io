@@ -1,14 +1,14 @@
 # site
-title: itchyeggie
+title: Itchyeggie
 baseurl: ""
 url: ""
 favicon: "/assets/images/ico.png"
 g_analytics: UA-12345678-1
 
 # bio
-header:
+header: ÄGGIE'S
 desc: >
-  ÄGGIE
+  <a href=" https://beckenkaru.github.io/2020/12/15/upcoming">Upcoming</a> and <a href=" https://beckenkaru.github.io/2020/12/12/others">Commissioned work</a>, sketch <a href=" https://beckenkaru.github.io/archive">archive</a>, <a href=" https://beckenkaru.github.io/2020/12/13/print">prints</a>, <a href=" https://beckenkaru.github.io/2020/12/14/animation">animations</a>. \\ <a href=" https://beckenkaru.github.io/2020/12/16/about">About</a>.
 
 # posts
 date_format: "%Y"
